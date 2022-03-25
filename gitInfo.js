@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a version control system that allows individuals and teams to track changes to code projects. This is helpful to prevent bugs and loss of progress. It also allows you to view the long history of a project in snapshots."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,13 +18,13 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "Github is a website that allows you to upload/download your git repositories. It's essentially a cloud service for your git repositories."
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
     It should be a string containing your best definition of what 'git init' does.
 */
-
+let gitInitDefinition = "When 'git init' is entered in the command line, a git repository is initialized in the folder you are currently in. The files in this folder can now be tracked, staged and commited."
 //CODE HERE
 
 //////////////////PROBLEM 4////////////////////
@@ -32,7 +32,7 @@
     Create a variable called 'gitCloneDefinition'.  
     It should be a string containing your best definition of what 'git clone' does.
 */
-
+let gitCloneDefinition = "When 'git clone' followed by a Github repositories URL is entered in the command line, a copy of that repository is saved to your machine in the folder you are currently in."
 //CODE HERE
 
 //////////////////PROBLEM 5////////////////////
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = "When 'git status' is entered in the command line a message will appear in the terminal telling you what changes to the files in that folder have been made but not staged yet in red and what changes have been staged but not commited yet in green. Colors may vary depending on terminal settings."
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +53,8 @@
 */
 
 //CODE HERE
-
+let gitAddDefinition = "When 'git add' followed by a file name is entered in the command line that file is now being tracked and has been staged for commit. Instead of a file name you can follow 'add' with '.' to stage all changes in that folder."
+let gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,12 +65,13 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = "When 'git commit -m' followed by a message in double quotations that describes your changes is entered in the command line a new version of your code is added to the repository and will include any changes that were previously staged."
 
-
+let gitCommitCode = 'git commit -m "initial commit"'
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
     It should be a string containing your best definition of what 'git push' does.
 */
-
+let gitPushDefinition = "When 'git push' followed by a repositories name is entered in the command line, the local commits in the folder you are currently in are added to that repository on Github."
 //CODE HERE
