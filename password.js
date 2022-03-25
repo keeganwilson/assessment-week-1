@@ -8,7 +8,7 @@ const reader = readline.createInterface({
   output: process.stdout,
 });
 
-console.log('Welcome to the password validator tool!')
+console.log('Welcome to the password validator tool!');
 
 reader.question('Please enter a password to validate:  ', function(answer) {
     let symbols = ['!', '@', '#', '$', '%', '^', '&', '*'];
@@ -38,7 +38,7 @@ reader.question('Please enter a password to validate:  ', function(answer) {
     }   else if (containsNum === false) {
             console.log('The password must contain at least one number.');
     }   else if (containsSymbol === false) {
-            console.log('The password must contain at least one symbol. i.e. (!, @, #, $, %, ^, &, *)')
+            console.log('The password must contain at least one symbol. i.e. (!, @, #, $, %, ^, &, *)');
     }   else console.log(`
                                                                       dddddddd     
 VVVVVVVV           VVVVVVVV               lllllll   iiii              d::::::d  !!!
@@ -57,6 +57,6 @@ V::::::V           V::::::V               l:::::l                     d:::::d  !
           V:::::V       a:::::aaaa::::::a l::::::li::::::i d:::::::::::::::::d  !!!
            V:::V         a::::::::::aa:::al::::::li::::::i  d:::::::::ddd::::d !!:!!
             VVV           aaaaaaaaaa  aaaalllllllliiiiiiii   ddddddddd   ddddd  !!!               
-`)
+`);
     reader.close();
 });
